@@ -14,7 +14,6 @@ class ElementoVisual {
 	}
 }
 
-
 class ElementoDinamico inherits ElementoVisual{
 	method nuevaPosicionAlAzar () {
 		var x = marco.inicioHorizontal().randomUpTo(marco.limiteHorizontal()).truncate(0)
