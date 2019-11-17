@@ -38,7 +38,6 @@ object mancuerna inherits Comestible(image = "mancuerna.png", position = game.at
 		game.sound("Tarzan.mp3")
 		self.nuevaPosicionAlAzar()
 	}
-
 }
 
 object cerveza inherits Comestible(image = "cerveza.png", position = game.at(6,3)){ 
