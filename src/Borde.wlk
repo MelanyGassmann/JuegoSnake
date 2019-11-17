@@ -16,13 +16,11 @@ class Borde inherits ElementoVisual{
 class BordeVertical inherits Borde{
 	method crearBordeVertical(xInicial, yInicial, tamanio,imagen){
 		(0..(tamanio)).forEach({iterador => elementosDeBorde.add(new ElementoVisual(image=imagen,position=game.at(xInicial,yInicial+iterador)))})
-	}
-	
+	}	
 }
 
 class BordeHorizontal inherits Borde{
 	method crearBordeHorizontal(xInicial, yInicial, tamanio,imagen){
 		(0..(tamanio)).forEach({iterador => elementosDeBorde.add(new ElementoVisual(image=imagen,position=game.at(xInicial+iterador,yInicial)))})
 	}
-	
 }
